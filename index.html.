@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlockMaster.ngp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="login-container">
+        <h1>LOGIN</h1>
+        <label>Username:</label>
+        <input type="text" id="username">
+        <label>Password:</label>
+        <input type="password" id="password">
+        <button onclick="checkLogin()">Login</button>
+    </div>
+    
+    <div id="game-container" style="display: none;">
+        <canvas id="gameCanvas"></canvas>
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>
